@@ -1,0 +1,132 @@
+:root {
+    /* Fuentes principales */
+    --fuenteTitulos: 'Permanent Marker', cursive;
+    --fuenteSecciones: 'Dhurjati', sans-serif;
+}
+body {
+    background-image: url(/photos/fondo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-family: var(--fuenteTitulos);
+    font-size: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* --------------------------- Header --------------------------- */
+.container_header {
+    max-width: 1110px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+.header_logo img {
+    width: 100px;
+}
+.container_nav {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.container_nav img {
+    width: 30px;
+}
+
+/* --------------------------- Home --------------------------- */
+.home {
+    min-height: 380px;
+    background-image: url(/photos/photo_home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 60%;
+}
+.home p {
+    color: white;
+    text-align: center;
+}
+/* --------------------------- Home --------------------------- */
+.aboutMe-imagen {
+    background-image: url(/photos/entrenador.jpeg);
+    background-size: cover;
+    min-height: 400px;
+    opacity: 70%;
+}
+.aboutMe-texto {
+    position: absolute;
+    top: 610px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    opacity: 70px;
+    min-width: 350px;
+    max-width: 1110px;
+    height: 400px;
+}
+.aboutMe-button {
+    font-family: var(--fuenteSecciones);
+    width: 90px;
+    opacity: 40%;
+}
+.aboutMe-button:hover {
+    border: 2px solid black;
+}
+
+
+/* --------------------------- Planes --------------------------- */
+.planes_contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.plan {
+    background: rgba(255, 255, 255, 0.5);
+    width: 360px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.plan_title {
+    font-family: var(--fuenteTitulos);
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.plan_text {
+    color: white;
+}
+.display {
+    display: none;
+}
