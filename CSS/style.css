@@ -72,7 +72,6 @@ h2 {
     background-image: url(/photos/entrenador.jpeg);
     background-size: cover;
     min-height: 400px;
-    opacity: 70%;
 }
 .aboutMe-texto {
     position: absolute;
