@@ -1,8 +1,16 @@
-var button = document.querySelector(".aboutMe-button");
-var aboutMeTexto = document.querySelector(".aboutMe-texto");
+var iconMenu = document.querySelector('.container_nav');
+var menuBurger = document.querySelector('.lista');
+var button = document.querySelector('.aboutMe-button');
+var aboutMe_texto = document.querySelector('.aboutMe-texto');
 
-button.addEventListener('click', mensaje);
 
-function mensaje(){ 
-    aboutMeTexto.classList.toggle('display');
+
+iconMenu.addEventListener('click', display);
+button.addEventListener('click', display2);
+
+function display() {
+    menuBurger.classList.toggle('display');
+}
+function display2() {
+    aboutMe_texto.classList.toggle('display');
 }
